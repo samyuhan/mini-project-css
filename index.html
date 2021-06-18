@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <header>
@@ -19,12 +20,12 @@
             <h2>Flexbox Row</h2>
             <p>Use these three properties to create a Flextbox row layout.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .row {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
-                </code>
+                    </pre>
             </div>
         </div>
 
@@ -32,12 +33,12 @@
             <h2>Flextbox Column</h2>
             <p>Use this to create a Flexbox column layout.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .column {
                         display: flex;
                         flex-direction: column;
                     }
-                </code>
+                </pre>
             </div>
         </div>
 
@@ -45,14 +46,14 @@
             <h2>CSS Grid Layout</h2>
             <p> Build a 12-column layout using CSS Grid.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .grid {
                         display: grid;
                         width: 100%
                         grid-template-columns;
                     repeat(12, 1fr);
                     }
-                </code>
+                </pre>
             </div>
         </div>
 
@@ -60,14 +61,14 @@
             <h2>Linear Gradients</h2>
             <p>This will create a background linear gradient from top to bottom.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .linear-gradient-background {
                         background-image: linear-gradient(
                             rgba(232, 102, 236, 0.3) 0%,
                             rgba(232, 102, 236, 0.6) 100%
                         );
                     }
-                </code>
+                </pre>
             </div>
         </div>
 
@@ -75,7 +76,7 @@
             <h2>Box Transition Glow</h2>
             <p>Use transition and box shadows to glow on hover.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .code-card .card-header {
                         border-radius: 8px;
                         transition: all 0.5s ease-in-out;
@@ -87,7 +88,7 @@
                         rgba(232, 102, 236, 1), 0 0 15px
                         rgba(232, 102, 236, 1);
                     }
-                </code>
+                </pre>
             </div>
         </div>
 
@@ -95,12 +96,12 @@
             <h2>Overlay Card with Title</h2>
             <p>Use position propoerties and negative margins to raise elements higher than their natural starting point.</p>
             <div class="codebox">
-                <code>
+                <pre>
                     .card-header {
                         position: relative;
                         margin-top: -20px;
                     }
-                </code>
+                </pre>
             </div>
         </div>
     </section>
